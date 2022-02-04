@@ -31,8 +31,9 @@ write_xlsx(intersect,"\\\\sfp.idir.bcgov\\...export.xlsx")
 
 
 # Plot Results
+# Plot Results
 intersect  %>%
   ggplot() +
   geom_sf() +
+  geom_sf(data = districts, fill = NA) +
   theme_minimal()
-
