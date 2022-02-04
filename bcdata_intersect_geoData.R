@@ -27,7 +27,7 @@ intersect <- tenures %>%
             st_join(districts, left = FALSE)
 
 
-write_xlsx(intersect,"\\\\sfp.idir.bcgov\\S164\\S63087\\Share\\FrontCounterBC\\Moez\\Training\\R\\myCodes\\outputs\\export.xlsx")
+write_xlsx(intersect,"\\\\sfp.idir.bcgov\\...export.xlsx")
 
 
 # Plot Results
